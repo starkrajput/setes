@@ -1,0 +1,643 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbarS" id="navbarS">
+        <div class="navbar-logoS">RSV Technologies</div>
+        <div class="navbar-menu-iconS" id="menu-iconS">&#9776;</div>
+        <ul class="navbar-menuS" id="navbar-menuS">
+            <li class="dropdownS">
+                <a href="#">Industry</a>
+                <div class="dropdown-containerS">
+                    <ul class="dropdown-menuS">
+                        <li>Artificial Intelligence Solutions</li>
+                        <li>Enterprise Solutions</li>
+                        <li>Machine Learning Solutions</li>
+                        <li>Mobile Solutions</li>
+                        <li>IIoT and IoT Solutions</li>
+                        <li>Managed Services</li>
+                        <li>Cloud Integration Solutions</li>
+                    </ul>
+                    <ul class="dropdown-menuS">
+                        <li>Web Solutions</li>
+                        <li>Saas Development</li>
+                        <li>Location-based Services</li>
+                        <li>Embedded Solutions</li>
+                        <li>Salesforce Development</li>
+                        <li>Staff Augmentation Services</li>
+                        <li>Ondemand Services</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdownS">
+                <a href="#">Resources</a>
+                <div class="dropdown-containerS">
+                    <ul class="dropdown-menuS">
+                        <li>Web apps</li>
+                        <li>mobile apps</li>
+                        <li>web solution</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdownS">
+                <a href="#">Technology</a>
+                <div class="dropdown-containerS">
+                    <ul class="dropdown-menuS">
+                        <li>Healthcare</li>
+                        <li>Management</li>
+                        <li>Business</li>
+                        <li>Science</li>
+                        <li>Transport</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+
+
+    <!--Banner-->
+    <div class="banner">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <video src="./assets/V22.mp4" autoplay loop muted playsinline class="carousel-video"></video>
+                <div class="carousel-content">
+                    <h1>AI - ML Solutions</h1>
+                    <p>Enable peak performance and automation for your systems and operations with our AI solutions.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video src="./assets/V1.mp4" autoplay loop muted playsinline class="carousel-video"></video>
+                <div class="carousel-content">
+                    <h1>Digital Transformation</h1>
+                    <p>Leverage our decades of experience transforming businesses of all shapes and sizes.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video src="./assets/V3.mp4" autoplay loop muted playsinline class="carousel-video"></video>
+                <div class="carousel-content">
+                    <h1>Software Consulting</h1>
+                    <p>Consult with the experts to get an optimal product for your business requirements.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video src="./assets/V4.mp4" autoplay loop muted playsinline class="carousel-video"></video>
+                <div class="carousel-content">
+                    <h1>Enterprise Mobility</h1>
+                    <p>We build solutions that can be accessed from the device of your choice anywhere and anytime.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="words-container">
+            <div class="word active">
+                <span>Artificial Intelligence</span>
+                <div class="loading-bar active"></div>
+            </div>
+            <div class="word">
+                <span>Digital Transformation</span>
+                <div class="loading-bar"></div>
+            </div>
+            <div class="word">
+                <span>Software Consulting</span>
+                <div class="loading-bar"></div>
+            </div>
+            <div class="word">
+                <span>Enterprise Mobility</span>
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Added Section-->
+    <div class="container" style="margin-bottom: 70px;">
+        <div class="row" style="margin-top:70px;">
+            <div class="col-12 col-md-6">
+                <div class="rounded p-3 " style="font-size:18px;">
+                    <h1><span>Our <b>Services</b></span></h1>
+                    <br>
+                    <p>Software Product Engineering Methodologies</p>
+                    <p style="font-weight:bold;font-size:20px;">RSV Technologies provides teams of dedicated and experienced software engineers who know how to satisfy client testing requirements with efficient management skills and software engineering methodologies.</p>
+                    <p>RSV Technologies has grown 20% - 50% per year since its founding, completing hundreds of successful engagements for clients such as Adobe, IBM, Oracle, Cisco, Prudential, Mass Mutual, Luxottica, Ford, and a host of startup companies in Silicon Valley.</p>
+                    <button type="button" class="btn " style="width: 200px; height: 50px;color:white; margin-left: 10px; background: rgb(2,0,25); background: linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);">DISCOVER NOW</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="border rounded p-3 shadow mb-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <img style="width:100px;height:100px;" src="https://cdn-icons-png.flaticon.com/512/8738/8738896.png" alt="Ideation Icon">
+                        </div>
+                        <div class="col-8">
+                            <h5>Ideation</h5>
+                            <p>Our engineering teams, where everyone is a leader, help you create groundbreaking solutions.</p>
+                        </div>
+                    </div>
+                    <hr style="border: none; height: 1px; background-color: #87CEEB;">
+
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1589/1589661.png" style="width:100px;height:100px;" alt="Market Research Icon">
+                        </div>
+                        <div class="col-8">
+                            <h5>Market Research</h5>
+                            <p>We go beyond the industry standards to find and seize opportunities. We grow when our clients grow.</p>
+                        </div>
+                    </div>
+                    <hr style="border: none; height: 1px; background-color:#87CEEB;">
+
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/868/868682.png" style="width:100px;height:100px;" alt="Technology & Tools Icon">
+                        </div>
+                        <div class="col-8">
+                            <h5>Technology & Tools</h5>
+                            <p>We help clients invest in the right tools that help them cut out the noise and get the job done.</p>
+                        </div>
+                    </div>
+                    <hr style="border: none; height: 1px; background-color:#87CEEB;">
+
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2762/2762427.png" style="width:100px;height:100px;" alt="Success Icon">
+                        </div>
+                        <div class="col-8">
+                            <h5>Success</h5>
+                            <p>We take pride in our 21+ years of client success. We supply our clients with up-to-date and actionable results so they can focus on what really matters: growing their business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PART 1 ENDS Here-->
+    <!--PART 2 STARTS HERE -->
+    </style>
+    <div class="container">
+        <br>
+        <br>
+        <div class="text-center">
+            <h2>Values & <b>Culture</b></h2>
+            <p style="padding: 6px; font-size: 20px;">
+                Our team is our greatest asset. We consistently invest in and around our team members to make sure they are set up for success and share RSV Technologies' dedication to excellence.
+            </p>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4" style="padding-right:3px;">
+                <div class="row align-items-center" style="padding-bottom:18px;">
+                    <div class="col-3">
+                        <img src="./assets/Vedio/csr.png" style="width: 50px; height: 50px; margin-left: 40px;" alt="CSR">
+                    </div>
+
+                    <div class="col-9">
+                        <h5>CSR</h5>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="padding-bottom:8px;">
+                    <div class="col-3">
+                        <img src="./assets/Vedio/trophy.png" style="width: 50px; height: 50px; margin-left: 40px;" alt="Awards">
+                    </div>
+                    <div class="col-9">
+                        <h5>Awards</h5>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="padding-bottom:8px;">
+                    <div class="col-3">
+                        <img src="./assets/Vedio/event.png" style="width: 50px; height: 50px; margin-left: 40px;" alt="Events">
+                    </div>
+                    <div class="col-9">
+                        <h5>Events</h5>
+                    </div>
+                </div>
+                <div class="row align-items-center" style="padding-bottom:8px;">
+                    <div class="col-3">
+                        <img src="./assets/Vedio/balance-scale.png" style="width: 50px; height: 50px; margin-left: 40px;" alt="Work-Life Balance">
+                    </div>
+                    <div class="col-9">
+                        <h5>Work-Life Balance</h5>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-3">
+                        <img src="./assets/Vedio/reward.png" style="width: 50px; height: 50px; margin-left: 40px;" alt="Recognition">
+                    </div>
+                    <div class="col-9">
+                        <h5>Recognition</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="containerW">
+                    <div>
+                        <div class="contentW">
+                            <h2>Jane Doe</h2>
+                            <span>UI & UX Designer</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contentW">
+                            <h2>Alex Smith</h2>
+                            <span>CEO Expert</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contentW">
+                            <h2>Emily New</h2>
+                            <span>Web Designer</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contentW">
+                            <h2>Lisa Boley</h2>
+                            <span>Marketing Coordinator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PART 2 ENDS HERE -->
+    <!--Section2-->
+    <div class="section-2" id="section-2">
+        <div class="section-2-content">
+            <h2>Next Gen AI Solution We Offer</h2>
+            <p>Our decades of expertise and experience channeled towards building the perfect AI solution.</p>
+        </div>
+        <div class="staircase">
+            <div class="staircase-level">
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Machine Learning Services</div>
+                    <img src="./assets/pic11.jpg" alt="Image 1" class="staircase-image">
+                </div>
+            </div>
+            <div class="staircase-level">
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Natural Language Processing(NLP)</div>
+                    <img src="./assets/pic12.jpg" alt="Image 2" class="staircase-image">
+                </div>
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Robotic Process Automation</div>
+                    <img src="./assets/pic13.jpg" alt="Image 3" class="staircase-image">
+                </div>
+            </div>
+            <div class="staircase-level">
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Computational Vision</div>
+                    <img src="./assets/pic14.jpg" alt="Image 4" class="staircase-image">
+                </div>
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Conversational AI</div>
+                    <img src="./assets/pic23.jpg" alt="Image 5" class="staircase-image">
+                </div>
+                <div class="staircase-image-container">
+                    <div class="staircase-heading">Recommendation Engine</div>
+                    <img src="./assets/pic21.jpg" alt="Image 6" class="staircase-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 3-->
+    <div class="text-center" style="background: rgb(2,0,25); background: linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);color:white;height:70px;">
+        <div class="text-center " >
+            <h2 style="padding-top:10px;">Our Recent Works</h2>
+
+        </div>
+    </div>
+    <div class="section3">
+        <div class="carousel" id="carousel">
+            <div class="carousel-slide">
+                <div class="carousel-card">
+                    <img src="./assets/pic1.jpg" alt="HealthTrack Pro" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">HealthTrack Pro</h3>
+                        <p class="card-description">HealthTrack Pro is a comprehensive healthcare management platform designed to streamline patient care, track health metrics, and ensure regulatory compliance. It offers advanced features for managing patient records, scheduling appointments, and generating health reports.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/pic21.jpg" alt="EstateVision 360" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">EstateVision 360</h3>
+                        <p class="card-description">EstateVision 360 provides an all-in-one solution for real estate professionals. It includes tools for managing property listings, client interactions, and market analytics, helping users to enhance their business operations and client relationships.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/P1.jpg" alt="FinSecure Solutions" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">FinSecure Solutions</h3>
+                        <p class="card-description">FinSecure Solutions offers robust financial management features to track investments, manage expenses, and ensure data security. It’s ideal for both individuals and businesses seeking to optimize their financial planning and operations.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/P2.jpg" alt="EduSmart LMS" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">EduSmart LMS</h3>
+                        <p class="card-description">EduSmart LMS is an advanced learning management system that supports educational institutions with course management, student tracking, and online learning capabilities. It helps educators deliver engaging content and monitor student progress effectively.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/P3.jpg" alt="RetailBoost Suite" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">RetailBoost Suite</h3>
+                        <p class="card-description">RetailBoost Suite is a powerful tool for retail businesses, offering features to manage inventory, track sales, and engage customers. It helps retailers streamline their operations and boost sales through enhanced analytics and customer insights.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/P4.jpg" alt="HealthTrack Pro" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">HealthTrack Pro</h3>
+                        <p class="card-description">HealthTrack Pro is a comprehensive healthcare management platform designed to streamline patient care, track health metrics, and ensure regulatory compliance. It offers advanced features for managing patient records, scheduling appointments, and generating health reports.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/pic21.jpg" alt="EstateVision 360" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">EstateVision 360</h3>
+                        <p class="card-description">EstateVision 360 provides an all-in-one solution for real estate professionals. It includes tools for managing property listings, client interactions, and market analytics, helping users to enhance their business operations and client relationships.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/pic22.jpg" alt="FinSecure Solutions" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">FinSecure Solutions</h3>
+                        <p class="card-description">FinSecure Solutions offers robust financial management features to track investments, manage expenses, and ensure data security. It’s ideal for both individuals and businesses seeking to optimize their financial planning and operations.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/pic1.jpg" alt="EduSmart LMS" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">EduSmart LMS</h3>
+                        <p class="card-description">EduSmart LMS is an advanced learning management system that supports educational institutions with course management, student tracking, and online learning capabilities. It helps educators deliver engaging content and monitor student progress effectively.</p>
+                    </div>
+                </div>
+                <div class="carousel-card">
+                    <img src="./assets/pic23.jpg" alt="RetailBoost Suite" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-header">RetailBoost Suite</h3>
+                        <p class="card-description">RetailBoost Suite is a powerful tool for retail businesses, offering features to manage inventory, track sales, and engage customers. It helps retailers streamline their operations and boost sales through enhanced analytics and customer insights.</p>
+                    </div>
+                </div>
+                <!-- Add more carousel cards here as needed -->
+            </div>
+        </div>
+    </div>
+
+
+    <!--Testimonial-->
+    <div class="container text-center mt-5" style="background: rgb(2,0,25); background: linear-gradient(90deg, rgba(2,0,25,1) 19%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);color:white;height:110px;border-radius:5px;">
+        <h2>Testimonials</h2>
+        <p style="font-size: 18px;">
+            When we say we’re all about our people, we really mean it. The idea of "taking care of people" both our employees
+            and our clients has been built into the way we do business.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="face front-face">
+                        <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                             alt="" class="profile">
+                        <div class="pt-3 text-uppercase name">
+                            Robert Garrison
+                        </div>
+                        <div class="designation">Android Developer</div>
+                    </div>
+                    <div class="face back-face">
+                        <span class="fas fa-quote-left"></span>
+                        <div class="testimonial">
+                            I made bacck the purchase price in just 48 hours! Thank you for making it pain less,
+                            pleasant.
+                            The service was execellent. I will refer everyone I know.
+                        </div>
+                        <span class="fas fa-quote-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="face front-face">
+                        <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                             alt="" class="profile">
+                        <div class="pt-3 text-uppercase name">
+                            Jeffery Kennan
+                        </div>
+                        <div class="designation">Full Stack Developer</div>
+                    </div>
+                    <div class="face back-face">
+                        <span class="fas fa-quote-left"></span>
+                        <div class="testimonial">
+                            Really good, you have saved our business! I made bacck the purchase price in just 48 hours!
+                            man, this thing is getting better and better as I learn more about it.
+                        </div>
+                        <span class="fas fa-quote-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="face front-face">
+                        <img src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                             alt="" class="profile">
+                        <div class="pt-3 text-uppercase name">
+                            Issac Maxwell
+                        </div>
+                        <div class="designation">Finance Director</div>
+                    </div>
+                    <div class="face back-face">
+                        <span class="fas fa-quote-left"></span>
+                        <div class="testimonial">
+                            Account keeper is the most valuable business research we have EVER purchased. Without
+                            electrician, we would ahave gone bankrupt by now.
+                        </div>
+                        <span class="fas fa-quote-right"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section4-->
+    <div class="section-container">
+        <div class="content-container">
+            <div class="content-item">
+                <img src="./assets/A1.jpg" alt="Photo" class="photo-image" />
+                <div class="text-content">
+                    <h2 class="heading">Join Our Crew, Come Build the Future With RSV</h2>
+                    <div class="border-style"></div>
+                    <p>
+                        At RSV Technologies, our greatest assets are our employees. Come join a diverse community of talented individuals who work together to deliver excellence and bring software solutions to life.
+                        <br />
+                        <br />
+                        We provide a workplace that is collaborative, and fosters productivity and teamwork. The leadership provides learning and growth opportunities for every individual to thrive professionally. Come join our talented group of testing experts and grow your career with us!!
+                    </p>
+                    <a href="/careers" class="button">Explore Careers</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <img src="./assets/A1.jpg" alt="Image 1" class="box-image" />
+            <img src="./assets/A2.jpg" alt="Image 2" class="box-image" />
+            <img src="./assets/A3.jpg" alt="Image 3" class="box-image" />
+            <img src="./assets/A4.jpg" alt="Image 4" class="box-image" />
+        </div>
+    </div>
+
+    <!--Contact Us -->
+    <div id="contact-container" class="containerD">
+        <!-- Left Side: Contact Us Form -->
+        <div class="form-container">
+            <h2 class="heading">Contact Us</h2>
+            <p class="paragraph">
+                RSV Technologies is dedicated to providing high-caliber offshore software product engineering services overseen by a local management team with a proven record of success.
+            </p>
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- Right Side: Additional Contact Information -->
+        <div class="info-container">
+            <h2 class="heading">Don't Want To Fill a Form?</h2>
+            <p class="paragraph">Email Us</p>
+            <h3 class="heading">Sales Inquiry</h3>
+            <a href="mailto:sales@rsvtechnologies.com" class="link">sales@rsvtechnologies.com</a>
+            <h3 class="heading">Career</h3>
+            <a href="mailto:hiring@rsvtechnologies.com" class="link">hiring@rsvtechnologies.com</a>
+            <p>
+                <a href="/careers" class="button">See Current Openings</a>
+            </p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-header">
+            <div class="footer-left">
+                <!-- <h2>Get in touch with us</h2>
+                 <form>
+                     <div class="form-group">
+                         <input type="text" placeholder="Your First Name*" />
+                         <input type="text" placeholder="Your Last Name*" />
+                     </div>
+                     <div class="form-group">
+                         <input type="text" placeholder="Your Phone*" />
+                         <input type="email" placeholder="Your E-mail*" />
+                     </div>
+                     <textarea placeholder="Your Message*"></textarea>
+                     <button type="submit">Send</button>
+                 </form>-->
+                <!-- <img src="path/to/companyLogo.png" alt="Company Logo" class="company-logo" />-->
+                <p>RSV Software</p>
+                <p>Development Partner</p>
+            </div>
+            <div class="footer-right">
+                <!-- <img src="path/to/buildingAnimation.png" alt="Building Animation" />-->
+            </div>
+        </div>
+
+        <div class="footer-columns">
+            <div class="column">
+                <h3>Locations</h3>
+                <ul>
+                    <li><img src="./assets/usa.png" alt="USA Flag" /> USA</li>
+                    <li>Calfornia</li>
+                    <li>Mexico</li>
+                    <li>Seattle</li>
+                    <li><img src="./assets/india.png" alt="India Flag" /> India</li>
+                    <li>Noida</li>
+                    <li>Banglore</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Services</h3>
+                <ul>
+                    <li>Embedded Engineering</li>
+                    <li>Staff Augmentation</li>
+                    <li>DevOps Consulting</li>
+                    <li>Mobile App Development</li>
+                    <li>MVP Development</li>
+                    <li>SaaS Development</li>
+                    <li>IOT & IIOT</li>
+                    <li>Software Testing</li>
+                    <li>Hire Developers</li>
+                    <li>Predictive Analytics</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Industries</h3>
+                <ul>
+                    <li>Transportation & Logistics</li>
+                    <li>Banking & Finance</li>
+                    <li>Retail & eCommerce</li>
+                    <li>Healthcare</li>
+                    <li>Telecommunications</li>
+                    <li>Travel & Hospitality</li>
+                    <li>Legal</li>
+                    <li>Real-Estate</li>
+                    <li>Education & eLearning</li>
+                    <li>Media & Entertainment</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Case Studies</li>
+                    <li>Portfolios</li>
+                    <li>Infographics</li>
+                    <li>Careers</li>
+                    <li>Refer & Earn</li>
+                    <li>Submit RFP</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/Rrs9yKxBpzCxu1bX/?mibextid=qi2Omg"><img src="./assets/fb.png" alt="Facebook" class="social-icon" /></a>
+                <a href="#"><img src="./assets/ig.png" alt="Instagram" class="social-icon" /></a>
+                <a href="https://www.linkedin.com/company/rsvtechnologies/"><img src="./assets/ld.png" alt="LinkedIn" class="social-icon" /></a>
+                <a href="https://x.com/rsvtechnologies?t=QE4cczSH2z1GIaGUGU1gEw&s=09"><img src="./assets/x.png" alt="Twitter" class="social-icon" /></a>
+            </div>
+            <div class="footer-text">
+                <p>2024 © RSV Inc. All rights reserved.</p>
+                <p>
+                    <a href="/privacy">Privacy Statement</a> |
+                    <a href="/terms"> Terms & Conditions</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
